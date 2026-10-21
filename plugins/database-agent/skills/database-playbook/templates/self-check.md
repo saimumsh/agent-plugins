@@ -1,0 +1,12 @@
+# Self-check (all must pass before the PR)
+- [ ] Every entity, attribute and relationship in the Data Model is mapped (or its omission explained)
+- [ ] Types precise (money not float, timestamptz, lengths per requirements); keys and NOT NULL correct
+- [ ] Integrity in the DB: PK, FK with explicit ON DELETE, UNIQUE, CHECK for business rules that must always hold
+- [ ] Naming per standards; no reserved words
+- [ ] Every PII column classified with protection, retention and deletion mechanism; residency respected
+- [ ] Tenancy isolation enforced (tenant key on every tenant table, RLS if required)
+- [ ] Every access pattern served by an index or justified; no redundant indexes; evidence from EXPLAIN on synthetic volume
+- [ ] Migrations: one change each, reversible, online-safe for large tables, expand/contract for breaking changes, lock/statement timeouts set
+- [ ] up → down → up on a fresh local DB; resulting schema matches schema.md; linter clean (if available)
+- [ ] No real data, credentials or `.env`; seeds synthetic and local/test only
+- [ ] Every pitfall in the db-* skills used was checked

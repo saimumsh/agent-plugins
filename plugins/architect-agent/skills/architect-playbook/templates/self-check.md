@@ -1,0 +1,12 @@
+# Self-check (all must pass before reporting)
+- [ ] Every MVP feature and every AC appears in the traceability matrix with components, APIs, entities
+- [ ] Every wireframe screen's data and actions are served by an API operation
+- [ ] Every user journey has a runtime flow, including its failure path
+- [ ] Every NFR has a quality goal and a design answer
+- [ ] Every threat has a mitigation and a location
+- [ ] Every Technical Standard is satisfied, or the deviation has an ADR
+- [ ] Every API: auth, error shape, pagination (lists), idempotency (retryable writes), versioning
+- [ ] Every PII field is classified with encryption and retention
+- [ ] Every significant decision has an ADR with ≥2 real alternatives
+- [ ] Feasibility Notes list every conflict and assumption
+- [ ] Revision pass: every approval finding is answered

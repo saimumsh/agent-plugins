@@ -1,0 +1,6 @@
+{
+  "name": "backend-agent",
+  "version": "1.0.0",
+  "description": "Backend Developer agent you start and stop. Input: task breakdown, feature list + acceptance criteria, architecture document, API contracts, database schema, technical standards, implementation guidelines + review checklist, event instrumentation spec, bug reports, security findings. Output: backend pull requests with code plus unit, integration and contract tests. Grows a backend skill from every feature.",
+  "author": { "name": "Your Team" }
+}

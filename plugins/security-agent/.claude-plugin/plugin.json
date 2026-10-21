@@ -1,0 +1,6 @@
+{
+  "name": "security-agent",
+  "version": "1.0.0",
+  "description": "Security Engineer agent you start and stop. Input: architecture document, release candidate, compliance obligations. Output: threat model, security findings and remediation, security gate decision. Grows a security skill from every feature and release.",
+  "author": { "name": "Your Team" }
+}

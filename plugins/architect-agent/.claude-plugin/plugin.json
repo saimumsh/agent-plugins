@@ -1,0 +1,6 @@
+{
+  "name": "architect-agent",
+  "version": "1.0.0",
+  "description": "Solution Architect agent you start and stop. Input: spec, feature list + acceptance criteria, wireframes, user journeys, technical standards, threat model, ADR approvals. Output: architecture document, data model, API contracts, ADRs, feasibility notes. Grows an architecture skill from every feature.",
+  "author": { "name": "Your Team" }
+}

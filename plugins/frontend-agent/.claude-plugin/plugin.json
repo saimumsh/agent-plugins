@@ -1,0 +1,6 @@
+{
+  "name": "frontend-agent",
+  "version": "1.0.0",
+  "description": "Frontend Developer agent you start and stop. Input: task breakdown, feature list + acceptance criteria, high-fidelity designs, design system, interaction specs, visual assets, API contracts, technical standards, implementation guidelines + review checklist, event instrumentation spec, bug reports, security findings. Output: frontend pull requests with code plus unit, component and integration tests. Grows a frontend skill from every feature.",
+  "author": { "name": "Your Team" }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "cto-agent",
+  "version": "1.0.0",
+  "description": "CTO agent you start and stop. Input: Requirements Specification + ADRs. Output: Technical Standards + ADR Approvals. Grows a review skill from every feature.",
+  "author": { "name": "Your Team" }
+}
